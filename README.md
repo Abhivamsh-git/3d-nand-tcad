@@ -51,16 +51,10 @@ D. Lee and T.-J. K. Liu, "SiGe/Si heterojunction drain transistor for faster 3D 
 │   ├── nand_string_schematic.png     # String cross-section and cell layout
 │   ├── id_vgs_calibration.png        # Experimental vs TCAD calibrated curves
 │   └── report.pdf                    # Full BTP project report
-├── tcad_simulations/
+├── tcad-simulations/
 │   ├── sde/
-│   │   └── nand_string_geo.scm       # Sentaurus Structure Editor 2D/3D geometry scripts
+│   │   └── nand_string_dvs.cmd       # Sentaurus Structure Editor commands file
 │   ├── sdevice/
-│   │   ├── id_vgs_baseline.cmd       # Transfer curve calibration setup
-│   │   ├── gidl_btbt_sweep.cmd       # BTBT activation & bias sweep
-│   │   ├── workfunction_sweep.cmd    # Gate metal work function comparison
-│   │   ├── doping_var_sweep.cmd      # BL plug doping variation deck
-│   │   └── tox_sweep.cmd             # Tunnel oxide thickness sensitivity deck
-│   └── inspect/
-│       └── extract_profiles.ins      # Curve extraction and hole density export scripts
+│   │   ├── id_vgs_des.cmd       # Transfer curve calibration setup
 ├── plots/                            # Extracted raw CSV data and Origin/Matplotlib plots
 └── README.md
