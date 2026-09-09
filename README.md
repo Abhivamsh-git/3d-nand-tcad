@@ -1,4 +1,4 @@
-# 3d-nand-tcad
+# 3D-NAND-TCAD
 
 **Optimization of GIDL-Assisted Erase Operation in 3D NAND Flash Memory**
 
