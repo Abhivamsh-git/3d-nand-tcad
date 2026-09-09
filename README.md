@@ -23,10 +23,20 @@ The initial step involved calibrating the ID-VGS curve of the simulated structur
 
 ### Parametric Sensitivity on GIDL & Hole Density
 BTBT Model Validation
+<img width="847" height="514" alt="image" src="https://github.com/user-attachments/assets/3db57d9c-91b7-42a6-8c08-d13f2fe622ed" />
+
 Gate Work Function
+<img width="634" height="510" alt="image" src="https://github.com/user-attachments/assets/e4ae5d4b-dfa4-4cd9-84b2-2c0ecf0417d4" />
+
 BL Plug Doping Concentration
+<img width="714" height="520" alt="image" src="https://github.com/user-attachments/assets/85d42b24-360d-4db8-a67f-91ac9aa3c611" />
+
 Tunnel Oxide Thickness
+<img width="677" height="526" alt="image" src="https://github.com/user-attachments/assets/ac272234-1912-440d-a305-02a6a001ded2" />
+
 Fixed & Trap Charge Modulation
+<img width="667" height="835" alt="image" src="https://github.com/user-attachments/assets/6bb23805-ebc2-4974-a2db-1f5768cb4689" />
+
 
 ## Future Scope
 The current simulations have been conducted using a crystalline silicon channel, future work will focus on extending the study to polycrystalline silicon (poly-Si) channels. This transition is crucial for enhancing the practicality and real-world relevance of the results, as poly-Si is commonly used in actual 3D NAND flash memory fabrication. Future simulations will involve analyzing the impact of grain boundaries and grain-assisted trap states inherent to poly-Si, and studying their influence on GIDL behavior. This will include varying grain size, grain boundary distribution, and associated trap densities to better understand their effect on critical device parameters and optimize erase operations under realistic structural conditions.
@@ -47,14 +57,10 @@ D. Lee and T.-J. K. Liu, "SiGe/Si heterojunction drain transistor for faster 3D 
 
 ```text
 3d-nand-tcad/
-├── docs/
-│   ├── nand_string_schematic.png     # String cross-section and cell layout
-│   ├── id_vgs_calibration.png        # Experimental vs TCAD calibrated curves
-│   └── report.pdf                    # Full BTP project report
+├── report.pdf                    # Full BTP project report
 ├── tcad-simulations/
 │   ├── sde/
 │   │   └── nand_string_dvs.cmd       # Sentaurus Structure Editor commands file
 │   ├── sdevice/
 │   │   ├── id_vgs_des.cmd       # Transfer curve calibration setup
-├── plots/                            # Extracted raw CSV data and Origin/Matplotlib plots
 └── README.md
