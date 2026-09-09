@@ -15,6 +15,8 @@ These findings lay the groundwork for further investigations into employing GIDL
 The modeled string consists of an 8-wordline (8-WL) cylindrical vertical NAND structure with select gates (DSL, SSL) and dummy cells:
 <img width="506" height="364" alt="image" src="https://github.com/user-attachments/assets/08f206ce-1a20-4d7e-9a6f-57ceccfc85c0" />
 
+<img width="739" height="226" alt="image" src="https://github.com/user-attachments/assets/8c35d4de-bc79-410e-8004-b248c711b247" />
+
 ## 📂 Project Structure
 
 ```text
